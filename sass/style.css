@@ -1,0 +1,732 @@
+main {
+  height: 100vh;
+  min-height: 688px;
+}
+
+.aboutme {
+  background-size: contain;
+  height: 400px;
+  float: left;
+  -webkit-transform: translateX(-100vh);
+          transform: translateX(-100vh);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.aboutme.active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.aboutTitle {
+  height: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.aboutTitle.active {
+  height: 75px;
+}
+
+h2.text {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  z-index: 999;
+}
+
+main {
+  position: relative;
+  overflow: hidden;
+}
+
+main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background-image: url(https://image.freepik.com/darmowe-wektory/czarny-wzor-tekstury-z-wlokna-weglowego-w-jasnych-odcieniach_1017-21351.jpg);
+}
+
+.content {
+  position: relative;
+  color: white;
+}
+
+aside {
+  position: relative;
+  background-image: url(/images/2753374.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 626px;
+}
+
+div.message {
+  width: 280px;
+  margin: 0 auto;
+}
+
+h3 {
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+  color: wheat;
+  background-color: black;
+  opacity: 0.5;
+}
+
+h4 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 28px;
+  color: wheat;
+  background-color: black;
+  opacity: 0.5;
+}
+
+input {
+  height: 30px;
+  width: 340px;
+  font-size: 20px;
+}
+
+label {
+  font-size: 26px;
+  color: wheat;
+}
+
+button {
+  height: 70px;
+  width: 90px;
+}
+
+form div {
+  padding: 20px 0;
+}
+
+button {
+  bottom: 80px;
+  right: 80px;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: wheat;
+  border: 4px solid wheat;
+  -webkit-transition: .3s;
+  transition: .3s;
+  width: 340px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: 4px solid white;
+}
+
+textarea {
+  height: 112px;
+  width: 344px;
+  font-size: 20px;
+}
+
+footer {
+  color: white;
+  line-height: 100px;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  font-size: 15px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+h5 {
+  margin: 0;
+  line-height: 50px;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.burger {
+  position: fixed;
+  right: 5px;
+  padding: 5px;
+  top: 5px;
+  font-size: 40px;
+  opacity: 0.5;
+  color: white;
+  background: gray;
+  z-index: 1;
+}
+
+.burger:hover {
+  cursor: pointer;
+}
+
+i.fas {
+  display: none;
+}
+
+i.show {
+  display: block;
+}
+
+#bg {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 60px;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.menu {
+  position: fixed;
+  background-color: black;
+  border-right: 2px solid white;
+  width: 60px;
+  height: 100vh;
+  max-width: 90%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.menu-icon {
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+div.player {
+  position: relative;
+  top: 310px;
+  right: 260px;
+  cursor: pointer;
+  -webkit-transition: .9s;
+  transition: .9s;
+}
+
+button.player {
+  background-color: #000000;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(#a71010));
+  font-size: 30px;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  height: 50px;
+  width: 255px;
+  line-height: 30px;
+  border-radius: 32px;
+}
+
+button.player:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#a71010), to(#000000));
+}
+
+.nav-text {
+  position: absolute;
+  padding: 20px 0;
+  width: 184px;
+  margin: 0;
+  top: 0;
+  left: 65px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: gray;
+}
+
+nav {
+  z-index: 999;
+  overflow: hidden;
+  top: 0;
+}
+
+ul {
+  display: block;
+  position: absolute;
+}
+
+li {
+  position: relative;
+  cursor: pointer;
+  width: 270px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+span {
+  position: relative;
+  margin: 10px 0;
+  white-space: nowrap;
+}
+
+li:hover {
+  background-color: #031b33;
+}
+
+nav:hover {
+  width: 270px;
+}
+
+nav:hover > .player {
+  right: 0;
+}
+
+h1.ml15 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 40%;
+  width: 97%;
+  min-width: 320px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-weight: 800;
+  font-size: 3.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  overflow: hidden;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.console-container {
+  position: absolute;
+  padding: 20px 0;
+  width: 184px;
+  margin: 0;
+  top: 0;
+  left: 65px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  left: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-width: 320px;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+img.active, h6.heading, div.ico, #name, #phone, #email, #message, #sendBtn, .aboutme {
+  max-width: 100%;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#technology {
+  background-image: url(/images/Background3.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 100%;
+  min-height: 735px;
+}
+
+.heading {
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 100px 50px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.heading.active {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.skills {
+  height: 140px;
+  margin-left: 125px;
+}
+
+.flutter {
+  height: 180px;
+  padding: 0 20px 75px 0;
+  margin-left: 150px;
+}
+
+h6.iconsName, h6.iconsName1 {
+  color: black;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 110px;
+}
+
+h6.iconsName1 {
+  margin-left: 145px;
+}
+
+.containerTechnology {
+  -webkit-transform: translateX(-1650px);
+          transform: translateX(-1650px);
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.containerTechnology.active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.swiperSlideFlutter img {
+  height: 120px;
+}
+
+.title-flutter {
+  font-size: 30px;
+  margin: 35px 100px 10px 100px;
+}
+
+.description-flutter {
+  margin-left: 50px;
+}
+
+.mySwiperCss {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiperSlideCss {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  background-color: #414141;
+}
+
+.swiperSlideCss img {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.title-css {
+  font-size: 30px;
+  margin-left: 75px;
+  margin-top: 15px;
+  color: white;
+}
+
+.title-css2 {
+  font-size: 30px;
+  margin-left: 45px;
+  margin-top: 15px;
+  color: white;
+}
+
+@media (min-width: 1400px) {
+  .burger {
+    display: none;
+  }
+  .containerTechnology {
+    width: 1200px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1400px) {
+  .containerTechnology {
+    width: 1075px;
+    margin: auto;
+  }
+  .skills {
+    height: 100px;
+  }
+}
+
+@media (max-width: 1400px) and (max-width: 1200px) {
+  h1.ml15 {
+    top: 40%;
+  }
+  .flutter {
+    height: 150px;
+    padding: 0 20px 75px 0;
+    margin-left: 150px;
+  }
+  .skills {
+    height: 100px;
+  }
+  .ico {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1400px) and (max-width: 992px) {
+  h1.ml15 {
+    top: 20%;
+  }
+  h2.text {
+    font-size: 25px;
+  }
+  .containerTechnology {
+    margin-left: 60px;
+  }
+  .flutter {
+    margin-left: 60px;
+  }
+  h6.iconsName {
+    margin-left: 50px;
+  }
+  h6.iconsName1 {
+    margin-left: 75px;
+  }
+  .skills {
+    height: 80px;
+    margin-left: 60px;
+  }
+  .ico {
+    padding-right: 0;
+    max-width: 660px;
+  }
+  h6.iconsName, h6.iconsName1 {
+    font-size: 25px;
+  }
+  h6.heading {
+    font-size: 45px;
+  }
+  h2.text {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1400px) and (max-width: 768px) {
+  h1.ml15 {
+    font-size: 2.8em;
+    top: 20%;
+  }
+  h2.text {
+    font-size: 25px;
+    margin-left: 40px;
+  }
+  .flutter {
+    height: 130px;
+    padding: 0 20px 75px 0;
+    margin-left: 50px;
+  }
+  .containerTechnology {
+    margin-left: 60px;
+  }
+  .skills {
+    height: 80px;
+    max-width: 480px;
+  }
+  h6.iconsName, h6.iconsName1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  h6.heading {
+    font-size: 30px;
+  }
+  h3, h4 {
+    font-size: 25px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1400px) and (max-width: 576px) {
+  #bg {
+    height: 100vh;
+  }
+  .menu {
+    width: 270px;
+  }
+  .menu.show {
+    width: 0;
+  }
+  h1.ml15 {
+    font-size: 2em;
+    top: 40%;
+    max-width: 100%;
+  }
+  .player.show {
+    right: 0;
+  }
+  .iconsFlutter {
+    width: 250px;
+    margin: auto;
+  }
+  .flutter {
+    margin-left: 0;
+  }
+  .containerTechnology {
+    margin-left: 0px;
+  }
+  .aboutme {
+    height: 300px;
+  }
+  h2.text {
+    font-size: 22px;
+  }
+  .aboutTitle.active {
+    height: 50px;
+  }
+  img.active, img.aboutme {
+    height: 300px;
+  }
+  h6.heading {
+    margin-left: 0;
+    font-size: 38px;
+  }
+  .skills {
+    height: 60px;
+    max-width: 480px;
+  }
+  h6.iconsName, h6.iconsName1 {
+    font-size: 20px;
+    padding-left: 0px;
+  }
+  .containerTechnology {
+    padding-right: 0;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  form div {
+    padding: 15px 0;
+  }
+  h5 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 576px) {
+  .burger {
+    display: none;
+  }
+}
+
+#projects {
+  background-image: url(https://image.freepik.com/darmowe-wektory/czarny-wzor-tekstury-z-wlokna-weglowego-w-jasnych-odcieniach_1017-21351.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  min-height: 735px;
+}
+
+.headingProjects {
+  font-size: 50px;
+  color: black;
+}
+
+.wrapper-projects {
+  width: 500px;
+  height: 250px;
+  -webkit-perspective: 900px;
+          perspective: 900px;
+  margin: 0 0 0 150px;
+}
+
+.wrapper-projects2 {
+  width: 500px;
+  height: 250px;
+  -webkit-perspective: 900px;
+          perspective: 900px;
+  margin: 0 0 0 150px;
+}
+
+.wrapper-projects img {
+  height: 250px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #eba65b), to(#d99267));
+  background: linear-gradient(to top, #eba65b 30%, #d99267 100%);
+}
+
+.wrapper-projects2 img {
+  height: 250px;
+  width: 500px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #eba65b), to(#d99267));
+  background: linear-gradient(to top, #eba65b 30%, #d99267 100%);
+}
+
+.container-projects {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+  -webkit-transform: rotateX(60deg) scale(0.7);
+          transform: rotateX(60deg) scale(0.7);
+  -webkit-perspective: 900px;
+          perspective: 900px;
+  -webkit-box-shadow: 0px 20px 50px #555;
+          box-shadow: 0px 20px 50px #555;
+  -webkit-animation: entry 1s linear 1;
+          animation: entry 1s linear 1;
+}
+
+.container-projects:hover {
+  cursor: pointer;
+  -webkit-transform: rotate(0deg) scale(1) translateY(10px);
+          transform: rotate(0deg) scale(1) translateY(10px);
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+  z-index: 400;
+}
+/*# sourceMappingURL=style.css.map */

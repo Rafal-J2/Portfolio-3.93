@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-width: 320px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+img.active, h6.heading, div.ico,#name, #phone, #email, #message, #sendBtn, .aboutme {
+    max-width: 100%;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+

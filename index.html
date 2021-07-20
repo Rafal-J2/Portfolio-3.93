@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/sass/style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Faster+One|Saira+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+   
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section id="home">
+        <div class="burger">
+            <i class="fas fa-bars show"></i>
+            <i class="fas fa-times"></i>
+        </div>
+
+        <video autoplay muted loop id="bg">
+            <source src="Video/tlo4.mp4" type="video/mp4">
+        </video>
+
+
+        <nav class="menu show">
+            <ul>
+                <li class="home">
+                    <img src="/images/menu-start.png" class="menu-icon">
+                    <span class="nav-text">Start</span>
+                </li>
+                <li class="main">
+                    <img src="/images/menu-omnie.png" class="menu-icon">
+                    <span class="nav-text">O mnie</span>
+                </li>
+                <li class="technology">
+                    <img src="/images/menu-front-end.png" class="menu-icon">
+                    <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;
+                    <!-- <span class="nav-text">Front end developer</span> -->
+                </li>
+                <li>
+                    <img src="/images/menu-web.png" class="menu-icon">
+                    <span class="nav-text">Projekty stron WWW</span>
+                </li>
+                <li class="contact">
+                    <img src="images/menu-kontakt.png" class="menu-icon">
+                    <span class="nav-text">Kontakt</span>
+                </li>
+            </ul>
+
+            <div class="player">
+                <button class="player" onclick="playpause()"><i class="fa fa-play"></i>
+                    <i class="fa fa-pause"></i></button>
+            </div>
+
+        </nav>
+
+        <h1 class="ml15">
+            <span class="word">Flutter</span>
+            <span class="word">Developer</span>
+        </h1>
+
+    </section>
+
+    <main id="main">
+        <img src="/images/aboutme1.png" alt="O mnie" class="aboutme">
+        <img src="/images/aboutme-title.png" alt="O mnie" class="aboutTitle text-center">
+
+        <div class="container">
+            <h2 class="text ml-md-4"></h2>
+        </div>
+    </main>
+
+    <content id="technology">
+
+        <h6 class="heading">Wykorzystywane Technologie.</h6>
+
+        <div class="containerTechnology all">
+
+            <div class="swiper-container mySwiperFlutter">
+                <div class="swiper-wrapper">
+                    <div class="flutter-info">
+                        <h2 class="title-flutter">DART</h2>
+                        <p class="description-flutter">
+                            Posiadam praktyczną wiedzę na temat programowania obiektowego  w języku Dart  oraz znajomość  zarządzania danymi i stanami  w obrębie aplikacji 
+                            tj. Provider, Bloc provider, Cubit. Również jestem wstanie  zarządzać  funkcjami natywnymi po stronie Androida.
+                            </p>
+                    </div>
+
+                    <div class="swiper-slide swiperSlideFlutter">
+                        <img src="/images/dart4.png" alt="">
+                        
+                    </div>
+
+                    <div class="flutter-info">
+                        <h2 class="title-flutter">FLUTTER</h2>
+                        <p class="description-flutter">Dużej mierzę skupiam się na dostarczaniu dopracowanych aplikacji. Często wspierając się  z usługami Google Friebase. 
+                            Aby  podnieść  jakości aplikacji. 
+                            </p>
+                    </div>
+                    <div class="swiper-slide swiperSlideFlutter"><img src="/images/flutter.png" alt=""></div>
+                    
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>      
+        
+            </div>
+
+            <div class="swiper-container mySwiperCss">
+                <div class="swiper-wrapper swiperWrapperCss">
+                  <div class="swiper-slide swiperSlideCss">
+                    <img src="/images/css3.png"/>
+                    <h2 class="title-css">CSS</h2>
+                  </div>
+                  <div class="swiper-slide swiperSlideCss">
+                    <img src="images/javascript2.png" />
+                    <h2 class="title-css2">JavaScript</h2>
+                  </div>
+                  <div class="swiper-slide swiperSlideCss">
+                    <img src="/images/sass.png"/>
+                    <h2 class="title-css">Sass</h2>
+                  </div>
+                  <div class="swiper-slide swiperSlideCss">
+                    <img src="/images/jquery3.png" />
+                    <h2 class="title-css2">Jquery</h2>
+                  </div>
+                  <div class="swiper-slide swiperSlideCss">
+                    <img src="/images/bootstrap.png" />
+                    <h2 class="title-css2">Bootstrap</h2>
+                  </div>
+                  <div class="swiper-slide swiperSlideCss">
+                    <img src="/images/git.png" />
+                    <h2 class="title-css">Git</h2>
+                  </div>
+                </div>
+                <div class="swiper-pagination swiperPaginationCss"></div>
+              </div>
+            </div>
+        </div>
+
+    </content>
+    <content id="projects">
+
+        <h6 class="headingProjects">Wybrane projekty</h6>
+        <div class="wrapper-projects">
+            <div class="container-projects" id="c2">
+                <div class="imageProjects" id="i2">
+                  <img src="/images/project-portfolio.jpg" alt="">
+                </div>
+                </div>
+     </div>
+
+     <div class="wrapper-projects2">
+        <div class="container-projects" id="c2">
+            <div class="imageProjects" id="i2">
+                <img src="/images/app.jpg" alt="">
+            </div>
+            </div>
+     </div>
+
+    </content>
+
+    <aside id="contact">
+        <div>
+            <h3>Telefon kontaktowy: 000-000-000 <br>
+                Adres e-mail: Blood.Wars12@gmail.com</h3>
+            <h4>Formularz kontaktowy</h4>
+        </div>
+
+        <div class="message">
+
+            <div id="send_form_status"></div>
+            <form method="post" action="/send_form.php" id="contact_form">
+
+                <div><input type="text" name="name" id="name" class="formField" placeholder="Twoje imię" /></div>
+
+                <div><input type="text" name="phone" id="phone" class="formField" placeholder="Numer telefonu" /></div>
+
+                <div><input type="text" name="email" id="email" class="formField" placeholder="Adres email" /></div>
+
+                <div><textarea name="message" id="message" class="formField" placeholder="Treść wiadomości"></textarea>
+                </div>
+                <div><button id="sendBtn">Wyślij wiadomość</button></div>
+            </form>
+        </div>
+    </aside>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/code.js"></script>
+    <script src="/js/slider.js" type="module"></script>
+
+</body>
+
+<footer>
+    <h5>
+         Strona wykorzystuję pliki Cookies.
+        - All Rights Reserved ©2021
+    </h5>
+</footer>

@@ -1,0 +1,68 @@
+#technology {
+    background-image: url(/images/Background3.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    height: 100%;
+    min-height: 735px;
+   
+}
+
+
+.heading {
+    opacity: 0; 
+    transform: scale(0);
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    // margin-bottom: 100px;
+    margin: 0 0 100px 50px;
+    color: black;
+   // font-family: 'Saira Stencil One', cursive;
+   font-family: 'Roboto', sans-serif;
+    transition: 3s;
+  }
+
+  .heading.active {
+   opacity: 1;
+   transform: scale(1);
+  
+  }
+
+  .skills {
+    height: 140px;  
+    margin-left: 125px;
+}
+
+.flutter {
+  height: 180px;
+  padding: 0 20px 75px 0;
+  margin-left: 150px;
+}
+
+
+  h6.iconsName,  h6.iconsName1 {
+    color: black;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 110px;
+  }
+
+  h6.iconsName1 {
+    margin-left: 145px;
+  }
+
+  .containerTechnology {
+    transform: translateX(-1650px);
+    transition: .6s;
+  }
+
+  .containerTechnology.active {
+    transform: translateX(0);
+  }
+
+

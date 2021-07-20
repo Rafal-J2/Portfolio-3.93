@@ -1,0 +1,262 @@
+
+@media (min-width: 1400px) {
+
+  .burger {
+    display: none;
+  }
+
+  .containerTechnology{
+    width: 1200px;
+    margin: auto;
+}
+
+}
+
+@media  (max-width: 1400px) {
+
+// technology 
+
+.containerTechnology{
+  width: 1075px;
+  margin: auto;
+}
+
+.skills {
+  height: 100px;
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+
+  // header
+  h1.ml15 {
+    top: 40%;
+  }
+
+  // technology 
+
+  .flutter {
+    height: 150px;
+    padding: 0 20px 75px 0;
+    margin-left: 150px;
+  }
+
+  .skills {
+    height: 100px;
+  }
+
+ 
+
+  .ico {
+    padding-right: 0;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  // header
+  h1.ml15 {
+    top: 20%;
+  }
+
+  h2.text {
+    font-size: 25px;
+  }
+
+  // technology
+
+  .containerTechnology{
+    margin-left: 60px;
+}
+
+  .flutter {
+    margin-left: 60px;
+  }
+
+h6.iconsName{
+  margin-left: 50px;
+}
+
+h6.iconsName1 {
+  margin-left: 75px;
+}
+
+  .skills {
+    height: 80px;
+    margin-left: 60px;
+  }
+
+  .ico {
+    padding-right: 0;
+    max-width: 660px;
+  }
+
+  h6.iconsName, h6.iconsName1 {
+    font-size: 25px;
+  }
+
+  h6.heading {
+    font-size: 45px;
+  }
+
+    // about me
+    h2.text {
+      display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+
+  // aboutme 
+  h1.ml15 {
+    font-size: 2.8em;
+    top: 20%;
+
+  }
+
+  h2.text {
+    font-size: 25px;
+    margin-left: 40px;
+  }
+
+  // technology
+
+  .flutter {
+    height: 130px;
+    padding: 0 20px 75px 0;
+    margin-left: 50px;
+  }
+
+  .containerTechnology {
+    margin-left: 60px;
+  }
+
+  .skills {
+    height: 80px;
+    max-width: 480px;
+  }
+  h6.iconsName, h6.iconsName1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  h6.heading {
+    font-size: 30px;
+  }
+
+  //contact 
+  h3, h4 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  // header
+
+#bg {
+  height: 100vh;
+}
+  
+  .menu {
+    width: 270px;
+  }
+
+  .menu.show {
+    width: 0;
+  }
+
+  h1.ml15 {
+    font-size: 2em;
+    top: 40%;
+
+    max-width: 100%;
+  }
+
+.player.show {
+  right: 0;
+}
+
+ // technology
+
+ .iconsFlutter {
+  width: 250px;
+  margin: auto;
+}
+
+.flutter {
+  margin-left: 0;
+}
+
+
+.containerTechnology {
+  margin-left: 0px;
+}
+
+  //aboutme
+  .aboutme {
+    height: 300px;
+  }
+
+  h2.text {
+    font-size: 22px;
+  }
+
+  .aboutTitle.active {
+    height: 50px;
+  }
+  
+  img.active, img.aboutme {
+    height: 300px;
+  }
+
+  // technology
+h6.heading {
+  margin-left: 0;
+  font-size: 38px;
+  
+}
+  .skills {
+    height: 60px;
+    max-width: 480px;
+  }
+
+  h6.iconsName, h6.iconsName1 {
+    font-size: 20px;
+    padding-left: 0px;
+  }
+
+  .containerTechnology {
+    padding-right: 0;
+  }
+  //contact
+  h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  form div {
+    padding: 15px 0;
+  }
+
+  // footer
+h5 {
+  font-size: 12px;
+}
+}
+
+@media (min-width: 576px) {
+  .burger {
+    display: none;
+  }
+}
+}

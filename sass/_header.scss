@@ -1,0 +1,176 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+}
+
+
+.burger {
+    position: fixed;
+    right: 5px;
+    padding: 5px;
+    top: 5px;
+    font-size: 40px;
+    opacity: 0.5;
+    color: white;
+    background: gray;
+    z-index: 1;
+}
+
+.burger:hover {
+    cursor: pointer;
+}
+
+i.fas {
+    display: none;
+}
+
+i.show {
+    display: block;
+}
+
+#bg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    left: 60px;
+    z-index: 2;
+    opacity: 0.9;
+}
+
+.menu {
+    position: fixed;
+    background-color: black;
+    border-right: 2px solid white;
+    width: 60px;
+    height: 100vh;
+    max-width: 90%;
+    transition: .3s;
+}
+
+.menu-icon {
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+div.player {
+    position: relative;
+    top: 310px;
+    right: 260px;
+    cursor: pointer;
+    transition: .9s;
+
+}
+
+button.player {
+    background-color: #000000;
+    color: #ffffff;
+    background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(#a71010));
+    font-size: 30px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    height: 50px;
+    width: 255px;
+    line-height: 30px;
+    border-radius: 32px;
+
+}
+
+button.player:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(#a71010), to(#000000));
+}
+
+.nav-text {
+    position: absolute;
+    padding: 20px 0;
+    width: 184px;
+    margin: 0;
+    top: 0;
+    left: 65px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: gray;
+}
+
+nav {
+    z-index: 999;
+    overflow: hidden;
+    top: 0;
+}
+
+ul {
+    display: block;
+    position: absolute;
+}
+
+li {
+    position: relative;
+    cursor: pointer;
+    width: 270px;
+    transition: .4s;
+}
+
+
+span {
+    position: relative;
+    margin: 10px 0;
+    white-space: nowrap;
+
+}
+
+li:hover {
+    background-color: rgb(3, 27, 51);
+}
+
+nav:hover {
+    width: 270px;
+}
+
+nav:hover>.player {
+    right: 0;
+}
+
+h1.ml15 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    top: 40%;
+
+    width: 97%;
+    min-width: 320px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    overflow: hidden;
+}
+.ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.hidden {
+    opacity:0;
+  }
+  .console-container {
+    position: absolute;
+    padding: 20px 0;
+    width: 184px;
+    margin: 0;
+    top: 0;
+    left: 65px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: gray;
+  }
+  .console-underscore {
+     display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }

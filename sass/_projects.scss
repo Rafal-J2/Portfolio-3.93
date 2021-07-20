@@ -1,0 +1,75 @@
+#projects {
+    background-image: url(https://image.freepik.com/darmowe-wektory/czarny-wzor-tekstury-z-wlokna-weglowego-w-jasnych-odcieniach_1017-21351.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    min-height: 735px;
+}
+
+
+
+
+.headingProjects {
+
+  
+  font-size: 50px;
+  color: black;
+}
+
+.wrapper-projects{
+  width: 500px;
+  height: 250px;
+  perspective: 900px;
+  margin: 0 0 0 150px;
+}
+
+.wrapper-projects2{
+  width: 500px;
+  height: 250px;
+  perspective: 900px;
+  margin: 0 0 0 150px;
+}
+
+.wrapper-projects img {
+  // margin: 25px 25px 50px 25px;
+  height: 250px;
+
+  background: linear-gradient(to top, #eba65b 30%, #d99267 100%);
+}
+
+.wrapper-projects2 img {
+  // margin: 25px 25px 50px 25px;
+  height: 250px;
+  width: 500px;
+  background: linear-gradient(to top, #eba65b 30%, #d99267 100%);
+}
+
+.container-projects {
+  width: 100%;
+  height: 100%;
+  transition: .5s all ease;
+  transform: rotateX(60deg) scale(0.7);
+  perspective: 900px;
+  box-shadow: 0px 20px 50px #555;
+  animation: entry 1s linear 1;
+}
+
+.container-projects:hover {
+  cursor: pointer;
+  transform: rotate(0deg) scale(1) translateY(10px);
+  transition: .5s all ease;
+  z-index: 400;
+}
+
+// #i2 {
+//   background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
+// }
+
+
+// #c2 {
+//   left: -100%;
+//   z-index: 0;
+//   background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
+//   box-shadow: 0px 20px 100px #555;
+// }
