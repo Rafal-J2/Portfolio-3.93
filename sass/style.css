@@ -61,7 +61,7 @@ main::before {
   color: white;
 }
 
-aside {
+#contact {
   position: relative;
   background-image: url(/images/2753374.jpg);
   background-repeat: no-repeat;
@@ -663,13 +663,11 @@ h6.iconsName1 {
 
 #projects {
   background-image: url(https://image.freepik.com/darmowe-wektory/czarny-wzor-tekstury-z-wlokna-weglowego-w-jasnych-odcieniach_1017-21351.jpg);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  background-color: #555;
   height: 100%;
-  min-height: 735px;
+  min-height: 500;
 }
 
 .headingProjects {
