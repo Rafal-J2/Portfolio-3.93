@@ -16,7 +16,7 @@
   background-size: cover;
   background-color: #555;
   height: 100%;
-  min-height: 500;
+  min-height: 650px;
 }
 
 .container-projects {
@@ -54,11 +54,12 @@
 
 
 .wrapper-projects2{
- 
+  display: flex;
   width: 500px;
   height: 250px;
   perspective: 900px;
   margin: 0 0 0 150px;
+  
 }
 
 
@@ -106,6 +107,7 @@
 }
 
 .text{
+  text-align: center;
   font-size: 18px;
   color: white;
   margin: 20px;

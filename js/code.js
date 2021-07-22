@@ -56,8 +56,8 @@ $(document).on('scroll', function () {
     if(scrollValue> aboutmeFromTop + aboutmeHeight - windowHeight) {
         $aboutme.addClass('active');
     }
-        if(scrollValue> aboutTitleFromTop + aboutTitleHeight - windowHeight) {
-            $aboutTitle.addClass('active');
+    if(scrollValue> aboutTitleFromTop + aboutTitleHeight - windowHeight) {
+        $aboutTitle.addClass('active');
     }
 
     if(scrollValue> headingFromTop + headingHeight - windowHeight) {
@@ -115,7 +115,7 @@ const txt = 'Nazywam się Rafał Jeroś,  jestem programistą freelancerem. Od r
 let indexText = 0;
 const time = 1;
 
-// Implementacja
+// Implementation
 const addLetter = () => {
  spnText.textContent += txt[indexText];
  indexText++;
