@@ -55,7 +55,7 @@ i.show {
 
 div.player {
     position: relative;
-    top: 310px;
+    top: 370px;
     right: 260px;
     cursor: pointer;
     transition: .9s;
@@ -92,6 +92,11 @@ button.player:hover {
     font-weight: 600;
     text-transform: uppercase;
     color: gray;
+    
+}
+
+.job{
+ padding: 10px 0;
 }
 
 nav {
@@ -136,7 +141,6 @@ h1.ml15 {
     position: absolute;
     background-color: rgba(0, 0, 0, .5);
     top: 40%;
-
     width: 97%;
     min-width: 320px;
     color: white;
