@@ -39,7 +39,7 @@
 }
 
 .wrapper-projects{
-  display: flex;
+  // display: flex;
   width: 500px;
   height: 250px;
   perspective: 900px;
@@ -49,6 +49,7 @@
 
 .wrapper-projects img {
   height: 250px;
+
   background: linear-gradient(to top, #eba65b 30%, #d99267 100%);
 }
 
@@ -95,20 +96,16 @@
 }
 
  
-// .titleProjects {
-//   display: inline;
-//   text-align: end;
+// .textDescription{
+//   text-align: center;
+//   font-size: 18px;
+//   color: white;
+//   margin: 20px;
 // }
 
-.titleProjects2{
- display: flex;
- flex-wrap: wrap;
- width: 500px;
-}
+// .textContainer{
+//  display: flex;
+//  flex-wrap: wrap;
+//  width: 500px;
+// }
 
-.text{
-  text-align: center;
-  font-size: 18px;
-  color: white;
-  margin: 20px;
-}

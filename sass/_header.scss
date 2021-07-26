@@ -108,13 +108,16 @@ nav {
 ul {
     display: block;
     position: absolute;
+    padding: 0;
+
 }
 
-li {
+li  {
     position: relative;
     cursor: pointer;
     width: 270px;
     transition: .4s;
+    list-style-type: none;
 }
 
 
