@@ -431,6 +431,8 @@ h6.iconsName1 {
           transform: translateX(-1650px);
   -webkit-transition: .6s;
   transition: .6s;
+  width: 90%;
+  margin: auto;
 }
 
 .containerTechnology.active {
@@ -438,8 +440,20 @@ h6.iconsName1 {
           transform: translateX(0);
 }
 
+.mySwiperFlutter {
+  width: 90%;
+}
+
+.element.style {
+  width: 500px;
+}
+
 .swiperSlideFlutter img {
   height: 120px;
+}
+
+.description-flutter2 {
+  display: none;
 }
 
 .title-flutter {
@@ -492,16 +506,12 @@ h6.iconsName1 {
     display: none;
   }
   .containerTechnology {
-    width: 1200px;
+    width: 1350px;
     margin: auto;
   }
 }
 
 @media (max-width: 1400px) {
-  .containerTechnology {
-    width: 1075px;
-    margin: auto;
-  }
   .skills {
     height: 100px;
   }
@@ -521,6 +531,9 @@ h6.iconsName1 {
   }
   .ico {
     padding-right: 0;
+  }
+  .swiperSlideFlutter img {
+    height: 100px;
   }
 }
 
@@ -551,11 +564,24 @@ h6.iconsName1 {
     padding-right: 0;
     max-width: 660px;
   }
-  h6.iconsName, h6.iconsName1 {
+  h6.iconsName,
+  h6.iconsName1 {
     font-size: 25px;
   }
   h6.heading {
     font-size: 45px;
+  }
+  .description-flutter {
+    display: none;
+  }
+  .description-flutter2 {
+    display: block;
+  }
+  .flutter-info {
+    display: none;
+  }
+  .swiperPaginationFlutter {
+    position: static;
   }
   h2.text {
     display: inline-block;
@@ -583,14 +609,16 @@ h6.iconsName1 {
     height: 80px;
     max-width: 480px;
   }
-  h6.iconsName, h6.iconsName1 {
+  h6.iconsName,
+  h6.iconsName1 {
     font-size: 20px;
     padding-bottom: 20px;
   }
   h6.heading {
     font-size: 30px;
   }
-  h3, h4 {
+  h3,
+  h4 {
     font-size: 25px;
   }
   h5 {
@@ -635,7 +663,8 @@ h6.iconsName1 {
   .aboutTitle.active {
     height: 50px;
   }
-  img.active, img.aboutme {
+  img.active,
+  img.aboutme {
     height: 300px;
   }
   h6.heading {
@@ -646,7 +675,8 @@ h6.iconsName1 {
     height: 60px;
     max-width: 480px;
   }
-  h6.iconsName, h6.iconsName1 {
+  h6.iconsName,
+  h6.iconsName1 {
     font-size: 20px;
     padding-left: 0px;
   }
@@ -707,11 +737,11 @@ h6.iconsName1 {
 }
 
 .wrapper-projects {
+  display: inline-block;
   width: 500px;
   height: 250px;
   -webkit-perspective: 900px;
           perspective: 900px;
-  margin: 0 0 0 150px;
 }
 
 .wrapper-projects img {
@@ -755,6 +785,17 @@ h6.iconsName1 {
   font-size: 28px;
   color: white;
   margin-left: 125px;
+}
+
+.textDescription {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin: 20px;
+}
+
+.textContainer p {
+  color: white;
 }
 
 #experience {

@@ -18,7 +18,6 @@
     text-align: center;
     width: 100%;
     margin: 0 0 100px 50px;
-
     color: black;
     font-family: 'Roboto', sans-serif;
     transition: 3s;
@@ -28,7 +27,6 @@
    opacity: 1;
    transform: scale(1);
    padding-top: 25px; 
-  
   }
 
   .skills {
@@ -58,6 +56,8 @@
   .containerTechnology {
     transform: translateX(-1650px);
     transition: .6s;
+    width: 90%;
+    margin: auto;
   }
 
   .containerTechnology.active {

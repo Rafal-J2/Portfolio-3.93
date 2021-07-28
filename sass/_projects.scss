@@ -39,11 +39,11 @@
 }
 
 .wrapper-projects{
-  // display: flex;
+   display: inline-block;
   width: 500px;
   height: 250px;
   perspective: 900px;
-  margin: 0 0 0 150px;
+ 
 }
 
 
@@ -96,16 +96,14 @@
 }
 
  
-// .textDescription{
-//   text-align: center;
-//   font-size: 18px;
-//   color: white;
-//   margin: 20px;
-// }
+.textDescription{
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin: 20px;
+}
 
-// .textContainer{
-//  display: flex;
-//  flex-wrap: wrap;
-//  width: 500px;
-// }
+.textContainer p{
+ color: white;
+}
 
