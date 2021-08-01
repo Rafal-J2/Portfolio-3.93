@@ -304,7 +304,7 @@ h1.ml15 {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
   top: 40%;
-  width: 97%;
+  width: 100%;
   min-width: 320px;
   color: white;
   font-weight: bold;
@@ -511,9 +511,18 @@ h6.iconsName1 {
   }
 }
 
+@media (min-width: 1200px) {
+  .burger {
+    display: none;
+  }
+}
+
 @media (max-width: 1400px) {
   .skills {
     height: 100px;
+  }
+  .container-projects img {
+    width: 500px;
   }
 }
 
@@ -583,6 +592,9 @@ h6.iconsName1 {
   .swiperPaginationFlutter {
     position: static;
   }
+  .description-flutter2 {
+    margin: 5px 50px;
+  }
   h2.text {
     display: inline-block;
   }
@@ -616,6 +628,25 @@ h6.iconsName1 {
   }
   h6.heading {
     font-size: 30px;
+  }
+  .swiperSlideCss {
+    width: 150px;
+    height: 150px;
+  }
+  .swiperSlideCss img {
+    width: 60px;
+    height: 60px;
+  }
+  .title-css {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+  .title-css2 {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .container-projects img {
+    width: 350px;
   }
   h3,
   h4 {
@@ -740,6 +771,7 @@ h6.iconsName1 {
   display: inline-block;
   width: 500px;
   height: 250px;
+  margin-bottom: 75px;
   -webkit-perspective: 900px;
           perspective: 900px;
 }
@@ -808,11 +840,6 @@ h6.iconsName1 {
   background-color: #16222a;
   -webkit-clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 40%);
           clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 40%);
-}
-
-.clip2 {
-  -webkit-clip-path: polygon(100% 0%, 0% 75%, 0% 100%, 100% 100%);
-          clip-path: polygon(100% 0%, 0% 75%, 0% 100%, 100% 100%);
 }
 
 .clip p, .clip2 p {

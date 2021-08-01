@@ -1,3 +1,6 @@
+@import "_mixings.scss";
+
+
 @media (min-width: 1400px) {
 
   .burger {
@@ -10,18 +13,31 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .burger {
+    display: none;
+  }
+}
+
 @media (max-width: 1400px) {
 
   // technology 
 
-  // .containerTechnology{
-  //   width: 1075px;
-  //   margin: auto;
-  // }
-
   .skills {
     height: 100px;
   }
+
+  // projects 
+
+  //   .container-projects  {
+  //     width: 350px;
+  //   }
+
+  .container-projects img {
+    width: 500px;
+  }
+
+
 
   @media (max-width: 1200px) {
 
@@ -53,7 +69,7 @@
 
 
 
- 
+
 
     @media (max-width: 992px) {
 
@@ -104,29 +120,29 @@
       }
 
 
-      
-    // technology slide
 
-    .description-flutter {
-      display: none;
-    }
+      // technology slide
 
-    .description-flutter2 {
-      display: block;
-    }
+      .description-flutter {
+        display: none;
+      }
 
-    .flutter-info {
-      display: none;
-    }
+      .description-flutter2 {
+        display: block;
+      }
 
-    .swiperPaginationFlutter {
-     position: static;
-    }
+      .flutter-info {
+        display: none;
+      }
 
-    // .swiperSlideFlutter {
-    //   width: 90%;
-    // }
- 
+      .swiperPaginationFlutter {
+        position: static;
+      }
+
+      .description-flutter2 {
+        margin: 5px 50px;
+      }
+
       // about me
       h2.text {
         display: inline-block;
@@ -175,6 +191,32 @@
         font-size: 30px;
       }
 
+      .swiperSlideCss {
+        width: 150px;
+        height: 150px;
+      }
+
+      .swiperSlideCss img {
+        width: 60px;
+        height: 60px;
+      }
+
+      .title-css {
+        font-size: 20px;
+        margin-left: 60px;
+      }
+
+      .title-css2 {
+        font-size: 20px;
+        margin-left: 40px;
+      }
+
+      // projects 
+
+      .container-projects img {
+        width: 350px;
+      }
+
       //contact 
       h3,
       h4 {
@@ -187,11 +229,13 @@
     }
 
     @media (max-width: 576px) {
-      // header
+      // heade
 
       #bg {
         height: 100vh;
       }
+
+
 
       .menu {
         width: 270px;
@@ -227,6 +271,14 @@
       .containerTechnology {
         margin-left: 0px;
       }
+
+      // projects 
+
+
+
+      // .container-projects img {
+      //     width: 350px;
+      // }
 
       //aboutme
       .aboutme {
@@ -287,10 +339,14 @@
       }
     }
 
+
+
     @media (min-width: 576px) {
       .burger {
         display: none;
       }
     }
+
+
   }
 }

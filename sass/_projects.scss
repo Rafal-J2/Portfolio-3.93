@@ -19,6 +19,11 @@
   min-height: 650px;
 }
 
+
+// .container-projects img {
+//   width: 500px;
+// }
+
 .container-projects {
   width: 100%;
   height: 100%;
@@ -39,12 +44,13 @@
 }
 
 .wrapper-projects{
-   display: inline-block;
+  display: inline-block;
   width: 500px;
   height: 250px;
+  margin-bottom: 75px;
   perspective: 900px;
- 
 }
+
 
 
 .wrapper-projects img {
