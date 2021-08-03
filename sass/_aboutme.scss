@@ -1,64 +1,93 @@
+
+@import "_variables.scss";
+
+
 main {
-    
-    height: 100vh;
-    min-height: 688px;
-}
+  height: 100vh;
+  min-height: 688px;
+  position: relative;
+  overflow: hidden;
 
-.aboutMeText {
-  color: white;
-}
-
-.aboutme {
+  .aboutme {
     background-size: contain;
     height: 400px;
     float: left;
     transform: translateX(-100vh);
     transition: 1s;
-}
-
-
-.aboutme.active {
-    transform: translateX(0);
-}
-
-.aboutTitle {
-    height: 0;
-    transition: 1s;
-}
-
-.aboutTitle.active {
-    height: 75px;
-}
-
-h2.text {
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    z-index: 999;   
-}
-
-  main {
-    position: relative;
-    overflow: hidden;
   }
 
-  main::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 1;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    background-image: url(/images/carbon.jpg);  
+  .aboutme.active {
+    transform: translateX(0);
+  }
+
+
+  .aboutTitleContainer {
+    @include media-query(small){
+      width: 200px;
+      margin: auto;
+    }
+    @include media-query(extraSmall){
+      width: 200px;
+      margin: auto;
+    }
+  }
+
+
+
+  .aboutTitle {
+    width: 200px;
+    transition: 1s;
+
+
+
+    // @include media-query(medium) {
+    //   display: inline;
+    // //  color: red;
+    // }
+  }
+
+
+
+  .aboutTitle.active {
+    height: 75px;
+  }
+
+  h2.text {
+    font-size: 30px;
+    text-align: center;
+     color: white;
+    z-index: 999;
+    @include media-query(medium) {
+      display: inline-block;
+    //  color: red;
+    }
+
+    @include media-query(medium) {
+      display: block;
+   //   color: red;
+    }
   }
   
   .content {
     position: relative;
     color: white;
   }
+}
+
+
+main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background-image: url(/images/carbon.jpg);
+}
+

@@ -1,13 +1,11 @@
 main {
   height: 100vh;
   min-height: 688px;
+  position: relative;
+  overflow: hidden;
 }
 
-.aboutMeText {
-  color: white;
-}
-
-.aboutme {
+main .aboutme {
   background-size: contain;
   height: 400px;
   float: left;
@@ -17,31 +15,57 @@ main {
   transition: 1s;
 }
 
-.aboutme.active {
+main .aboutme.active {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
 
-.aboutTitle {
-  height: 0;
+@media (min-width: 576px) {
+  main .aboutTitleContainer {
+    width: 200px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  main .aboutTitleContainer {
+    width: 200px;
+    margin: auto;
+  }
+}
+
+main .aboutTitle {
+  width: 200px;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.aboutTitle.active {
+main .aboutTitle.active {
   height: 75px;
 }
 
-h2.text {
+main h2.text {
   font-size: 30px;
   text-align: center;
   color: white;
   z-index: 999;
 }
 
-main {
+@media (min-width: 768px) {
+  main h2.text {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  main h2.text {
+    display: block;
+  }
+}
+
+main .content {
   position: relative;
-  overflow: hidden;
+  color: white;
 }
 
 main::before {
@@ -58,11 +82,6 @@ main::before {
   background-size: cover;
   z-index: -1;
   background-image: url(/images/carbon.jpg);
-}
-
-.content {
-  position: relative;
-  color: white;
 }
 
 #contact {
@@ -595,9 +614,6 @@ h6.iconsName1 {
   .description-flutter2 {
     margin: 5px 50px;
   }
-  h2.text {
-    display: inline-block;
-  }
 }
 
 @media (max-width: 1400px) and (max-width: 1200px) and (max-width: 768px) {
@@ -644,6 +660,9 @@ h6.iconsName1 {
   .title-css2 {
     font-size: 20px;
     margin-left: 40px;
+  }
+  .container-projects {
+    width: 350px;
   }
   .container-projects img {
     width: 350px;
@@ -713,6 +732,12 @@ h6.iconsName1 {
   }
   .containerTechnology {
     padding-right: 0;
+  }
+  .container-projects {
+    width: 200px;
+  }
+  .container-projects img {
+    width: 200px;
   }
   h3 {
     font-size: 25px;
@@ -851,6 +876,13 @@ h6.iconsName1 {
   font-weight: bold;
 }
 
+.clip2 {
+  height: 250px;
+  background-color: #16222a;
+  -webkit-clip-path: polygon(100% 0%, 0% 75%, 0% 100%, 100% 100%);
+          clip-path: polygon(100% 0%, 0% 75%, 0% 100%, 100% 100%);
+}
+
 .clip2 p {
   padding-top: 170px;
 }
@@ -872,12 +904,5 @@ h6.iconsName1 {
 
 .titleExperience, .education {
   text-align: center;
-}
-
-.clip2 {
-  height: 250px;
-  background-color: #16222a;
-  -webkit-clip-path: polygon(100% 0%, 0% 75%, 0% 100%, 100% 100%);
-          clip-path: polygon(100% 0%, 0% 75%, 0% 100%, 100% 100%);
 }
 /*# sourceMappingURL=style.css.map */

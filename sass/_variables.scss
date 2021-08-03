@@ -1,0 +1,22 @@
+$breakpoints: (
+    extraSmall: (max-width: 576px),
+    small: (min-width: 576px),
+    medium: (min-width: 768px),
+    large: (min-width: 992px),
+    x-large: (min-width: 1200px),
+    xx-large: (min-width: 1400),
+);
+
+
+@mixin media-query($breakpoint) {
+  $size: map-get($breakpoints, $breakpoint);
+  @if($size) {
+    @media  #{$size} {
+        @content;
+    }
+  }
+  @else {
+      @error '"#{$breakpoint}" - błąd';
+  }
+}
+

@@ -31,8 +31,18 @@
 //     font-weight: bold;
 // }
 
-.clip2 p {
-    padding-top: 170px;
+// .clip2 p {
+//     padding-top: 170px;
+// }
+
+.clip2 {
+    height: 250px;
+    background-color: #16222a;
+    clip-path: polygon(100% 0%, 0% 75%, 0% 100%, 100% 100%);
+
+    p {
+        padding-top: 170px;
+    }
 }
 
  .titleExperience p:nth-last-of-type(3n), .education p:nth-last-of-type(3n) {
@@ -58,8 +68,3 @@
 
 
 
-.clip2 {
-    height: 250px;
-    background-color: #16222a;
-    clip-path: polygon(100% 0%, 0% 75%, 0% 100%, 100% 100%);
-}

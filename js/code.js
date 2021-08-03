@@ -109,7 +109,7 @@ anime({
 })
 
 const spnText = document.querySelector('.text');
-const txt = 'Nazywam się Rafał Jeroś,  jestem programistą freelancerem. Od roku 2019 zajmuję się tworzeniem stron WWW. Głównie koncentruje się przy technologiach  fornt-end:  CSS i JavaScript. Od ponad roku intensywnie  rozwijam swoje umiejętności w obszarze aplikacji mobilnych przy użyciu Frameworka Flutter. '
+const txt = 'Jestem programistą freelancerem. Od roku 2019 zajmuję się tworzeniem stron WWW. Głównie koncentruje się przy technologiach  fornt-end:  CSS i JavaScript. Od ponad roku intensywnie  rozwijam swoje umiejętności w obszarze aplikacji mobilnych przy użyciu Frameworka Flutter. '
 
 // Parameter
 let indexText = 0;
