@@ -18,6 +18,8 @@ const player2 = document.querySelector(".player");
 panel2.addEventListener("click",function () {
     panel2.classList.toggle("show");
     player2.classList.toggle("show");
+    iconX.classList.toggle("show");
+    iconBurger.classList.toggle("show");
 })
 
 const song = new Audio;

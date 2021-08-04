@@ -1,9 +1,8 @@
-
 @import "_variables.scss";
 
 
 main {
-  height: 100vh;
+//  height: 100vh;
   min-height: 688px;
   position: relative;
   overflow: hidden;
@@ -22,11 +21,11 @@ main {
 
 
   .aboutTitleContainer {
-    @include media-query(small){
+    @include media-query(sm){
       width: 200px;
       margin: auto;
     }
-    @include media-query(extraSmall){
+    @include media-query(xs){
       width: 200px;
       margin: auto;
     }
@@ -57,12 +56,12 @@ main {
     text-align: center;
      color: white;
     z-index: 999;
-    @include media-query(medium) {
+    @include media-query(md) {
       display: inline-block;
     //  color: red;
     }
 
-    @include media-query(medium) {
+    @include media-query(md) {
       display: block;
    //   color: red;
     }
