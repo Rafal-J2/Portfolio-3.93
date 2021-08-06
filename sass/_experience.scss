@@ -15,25 +15,11 @@
         font-size: 32px;
         padding-top: 50px;
         font-weight: bold;
+        @include media-query(xs) {
+            font-size: 28px;
+        }
     }
 }
-
-// .clip2 {
-//     clip-path: polygon(100% 0%, 0% 75%, 0% 100%, 100% 100%);
-// }
-
-// .clip p, .clip2 p{
-//     color: white;
-//     text-align: center;
-//     font-family: sans-serif;
-//     font-size: 32px;
-//     padding-top: 50px;
-//     font-weight: bold;
-// }
-
-// .clip2 p {
-//     padding-top: 170px;
-// }
 
 .clip2 {
     height: 250px;

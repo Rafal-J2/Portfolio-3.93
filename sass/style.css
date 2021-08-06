@@ -551,9 +551,6 @@ h6.iconsName1 {
   .ico {
     padding-right: 0;
   }
-  .swiperSlideFlutter img {
-    height: 100px;
-  }
 }
 
 @media (max-width: 1400px) and (max-width: 1200px) and (max-width: 992px) {
@@ -744,6 +741,12 @@ h6.iconsName1 {
   min-height: 650px;
 }
 
+@media (max-width: 576px) {
+  .swiperSlideFlutter img {
+    width: 90%;
+  }
+}
+
 .container-projects {
   height: 100%;
   -webkit-transition: .5s all ease;
@@ -862,6 +865,12 @@ h6.iconsName1 {
   font-size: 32px;
   padding-top: 50px;
   font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .clip p, .clip2 p {
+    font-size: 28px;
+  }
 }
 
 .clip2 {

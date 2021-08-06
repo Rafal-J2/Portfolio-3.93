@@ -13,9 +13,11 @@
 }
 
 
-// .container-projects img {
-//   width: 500px;
-// }
+.swiperSlideFlutter img {
+@include media-query(xs) {
+  width: 90%;
+}
+}
 
 .container-projects {
  // width: 100%;
@@ -95,7 +97,6 @@
 
 }
 
- 
 .textDescription{
   text-align: center;
   font-size: 18px;
