@@ -1,2 +1,2 @@
-# Portfolio-Rafał Jeroś
+# Portfolio Rafał Jeroś
 https://devsoftware.pl/
