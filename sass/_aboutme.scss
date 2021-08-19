@@ -32,19 +32,10 @@ main {
   }
 
 
-
   .aboutTitle {
     width: 200px;
     transition: 1s;
-
-
-
-    // @include media-query(medium) {
-    //   display: inline;
-    // //  color: red;
-    // }
   }
-
 
 
   .aboutTitle.active {
