@@ -468,6 +468,7 @@ h6.iconsName1 {
 
 .swiperSlideFlutter img {
   height: 120px;
+  background-color: rgba(255, 255, 255, 0.644);
 }
 
 .description-flutter2 {
@@ -494,7 +495,7 @@ h6.iconsName1 {
   background-size: cover;
   width: 200px;
   height: 200px;
-  background-color: #414141;
+  background-color: rgba(255, 255, 255, 0.644);
 }
 
 .swiperSlideCss img {
@@ -775,7 +776,7 @@ h6.iconsName1 {
 
 .headingProjects {
   font-size: 48px;
-  color: white;
+  color: orange;
   text-align: center;
   padding-top: 25px;
   font-weight: bold;
@@ -846,60 +847,7 @@ h6.iconsName1 {
   color: white;
 }
 
-#experience {
-  min-height: 500px;
-  background-color: aqua;
-}
-
-.clip, .clip2 {
-  height: 250px;
-  background-color: #16222a;
-  -webkit-clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 40%);
-          clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 40%);
-}
-
-.clip p, .clip2 p {
-  color: white;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 32px;
-  padding-top: 50px;
-  font-weight: bold;
-}
-
-@media (max-width: 576px) {
-  .clip p, .clip2 p {
-    font-size: 28px;
-  }
-}
-
-.clip2 {
-  height: 250px;
-  background-color: #16222a;
-  -webkit-clip-path: polygon(100% 0%, 0% 75%, 0% 100%, 100% 100%);
-          clip-path: polygon(100% 0%, 0% 75%, 0% 100%, 100% 100%);
-}
-
-.clip2 p {
-  padding-top: 170px;
-}
-
-.titleExperience p:nth-last-of-type(3n), .education p:nth-last-of-type(3n) {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.titleExperience p:nth-last-of-type(3n+2) {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.titleExperience p:nth-last-of-type(3n+1) {
-  font-size: 14px;
-  margin-bottom: 50px;
-}
-
-.titleExperience, .education {
-  text-align: center;
+.title-css, .title-css2 {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

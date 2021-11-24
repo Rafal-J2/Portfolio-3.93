@@ -44,7 +44,7 @@
 
 .headingProjects {
   font-size: 48px;
-  color: white;
+  color: orange;
   text-align: center;
   padding-top: 25px;
   font-weight: bold;
@@ -66,13 +66,11 @@
   }
 }
 
-
 .wrapper-projects img {
   height: 100%;
 
   background: linear-gradient(to top, #eba65b 30%, #d99267 100%);
 }
-
 
 .container-projects:hover {
   cursor: pointer;
@@ -94,7 +92,6 @@
       width: 50%;
       margin: auto;
   }
-
 }
 
 .textDescription{
@@ -106,5 +103,9 @@
 
 .textContainer p{
  color: white;
+}
+
+.title-css, .title-css2 {
+  color: black;
 }
 
