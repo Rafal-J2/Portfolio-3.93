@@ -111,7 +111,7 @@ anime({
 })
 
 const spnText = document.querySelector('.text');
-const txt = 'Jestem programistą freelancerem. Od roku 2019 zajmuję się tworzeniem stron WWW. Głównie koncentruje się przy technologiach  fornt-end:  CSS i JavaScript. Od ponad roku intensywnie  rozwijam swoje umiejętności w obszarze aplikacji mobilnych przy użyciu Frameworka Flutter. '
+const txt = 'Od ponad roku rozwijam swoje umiejętności w kierunku Flutter Developer.  Mam praktyczną wiedzę na temat programowania obiektowego  w języku Dart.  Przy swoich projektach z korzystam  z bibliotek tj. Bloc/Cubit, Provider, Get.  Dodatkowo swoje projekty wspieram usługami Google Firebase i Google Analytics. Również rozwijam swoje umiejętności po stronie Front-endu.  Z rozwiązań,  z których korzystam na co dzień,  to  CSS, JavaScript, SASS, JQuery, Bootstrap, RWD.'
 
 // Parameter
 let indexText = 0;

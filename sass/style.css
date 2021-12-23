@@ -47,6 +47,7 @@ main h2.text {
   font-size: 30px;
   text-align: center;
   color: white;
+  background: rgba(0, 0, 0, 0.603);
   z-index: 999;
 }
 
@@ -408,7 +409,6 @@ img.active, h6.heading, div.ico, #name, #phone, #email, #message, #sendBtn, .abo
   text-align: center;
   width: 100%;
   margin: 0 0 100px 50px;
-  color: black;
   font-family: 'Roboto', sans-serif;
   -webkit-transition: 3s;
   transition: 3s;
@@ -460,6 +460,7 @@ h6.iconsName1 {
 
 .mySwiperFlutter {
   width: 90%;
+  overflow: hidden;
 }
 
 .element.style {
@@ -467,8 +468,31 @@ h6.iconsName1 {
 }
 
 .swiperSlideFlutter img {
-  height: 120px;
   background-color: rgba(255, 255, 255, 0.644);
+}
+
+@media (min-width: 576px) {
+  .swiperSlideFlutter img {
+    height: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .swiperSlideFlutter img {
+    height: 90px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .swiperSlideFlutter img {
+    height: 120px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .swiperSlideFlutter img {
+    height: 130px;
+  }
 }
 
 .description-flutter2 {
@@ -481,13 +505,14 @@ h6.iconsName1 {
 }
 
 .description-flutter {
-  margin-left: 50px;
+  margin-left: 75px;
 }
 
 .mySwiperCss {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 
 .swiperSlideCss {
@@ -518,6 +543,18 @@ h6.iconsName1 {
   margin-left: 45px;
   margin-top: 15px;
   color: white;
+}
+
+@media (min-width: 576px) {
+  .swiper-wrapper {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .swiper-wrapper {
+    width: 75%;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -584,15 +621,6 @@ h6.iconsName1 {
   }
   h6.heading {
     font-size: 45px;
-  }
-  .description-flutter {
-    display: none;
-  }
-  .description-flutter2 {
-    display: block;
-  }
-  .flutter-info {
-    display: none;
   }
   .swiperPaginationFlutter {
     position: static;
