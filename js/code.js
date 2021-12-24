@@ -111,7 +111,7 @@ anime({
 })
 
 const spnText = document.querySelector('.text');
-const txt = 'Od ponad roku rozwijam swoje umiejętności w kierunku Flutter Developer.  Mam praktyczną wiedzę na temat programowania obiektowego  w języku Dart.  Przy swoich projektach z korzystam  z bibliotek tj. Bloc/Cubit, Provider, Get.  Dodatkowo swoje projekty wspieram usługami Google Firebase i Google Analytics. Również rozwijam swoje umiejętności po stronie Front-endu.  Z rozwiązań,  z których korzystam na co dzień,  to  CSS, JavaScript, SASS, JQuery, Bootstrap, RWD.'
+const txt = 'Od ponad roku rozwijam swoje umiejętności w kierunku Flutter Developer.  Mam praktyczną wiedzę na temat programowania obiektowego  w języku Dart.  Przy swoich projektach z korzystam  z bibliotek tj. Bloc/Cubit, Provider, Get.  Dodatkowo swoją pracę wspieram usługami Google Firebase oraz Google Analytics. Również rozwijam swoje umiejętności po stronie Front-endu. Z rozwiązań,  z których korzystam na co dzień,  to  CSS, JavaScript, SASS, JQuery, Bootstrap, RWD.'
 
 // Parameter
 let indexText = 0;
