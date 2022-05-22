@@ -1,1 +1,1 @@
-Portfolio Rafał Jeroś
+Portfolio
